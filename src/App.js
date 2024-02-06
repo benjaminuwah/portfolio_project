@@ -1,12 +1,13 @@
 import './App.css';
-import './index.css'
 import { Blog, Hero, Industries, Projects, Skills } from './Sections';
 
 function App() {
   return (
     <>
       <Hero />
-      <Projects />
+      <div className='mt-[-50px] z-10 absolute'>
+        <Projects />
+      </div>
       <Industries />
       <Skills />
       <Blog />

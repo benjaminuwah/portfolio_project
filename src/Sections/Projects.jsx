@@ -40,7 +40,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className='flex-1 pt-24'>
+        <div className='flex-1 pt-32'>
             <div>
             <div className='bg-[#27292D] h-[375px] rounded-[50px] flex justify-end items-end pb-10 pr-10'>
               <div className='flex gap-2 items-center text-[16px] bg-white px-7 py-3 rounded-[10px]  cursor-pointer'>

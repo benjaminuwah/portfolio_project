@@ -8,4 +8,20 @@
 
 body {
   background: #121316;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: url(./Assets/bg.png);
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  opacity: 70%;
+
+  &::after {
+    background: #000;
+    position: absolute;
+  }
 }
