@@ -127,6 +127,11 @@ export const skills = [
 ]
 export const tools = [
     {
+        id: "8",
+        name: "artificial intelligence",
+    },
+    
+    {
         id: "1",
         name: "VS Code",
     },
@@ -159,11 +164,6 @@ export const tools = [
     {
         id: "7",
         name: "NerdyEye Classroom",
-    },
-
-    {
-        id: "8",
-        name: "artificial intelligence",
     },
 
     {
