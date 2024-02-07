@@ -4,7 +4,7 @@ import { RxExternalLink } from "react-icons/rx";
 
 const Projects = () => {
   return (
-    <div className='w-[80%] mx-auto'>
+    <div id="Projects" className='w-[80%] mx-auto mt-[-100px] z-10 relative'>
       <div className='pb-16'>
         <h1 className='text-white text-[24px] font-bold'>Project</h1>
         <p className='text-[#C3C2C2] text-[14px]'>Products I have worked on</p>

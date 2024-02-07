@@ -2,7 +2,7 @@ import { skills } from "../Constants"
 
 const Skills = () => {
   return (
-    <div className="text-center py-16 md:py-0">
+    <div id="Skills" className="text-center py-16 md:py-0">
       <h1 className="text-[24px] text-white font-bold">Skills</h1>
       <p className="text-[#C3C2C2]">Some of my Skills</p>
 

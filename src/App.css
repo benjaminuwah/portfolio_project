@@ -9,19 +9,49 @@
 body {
   background: #121316;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .hero {
   background: url(./Assets/bg.png);
+  /* background: #fff; */
   position: relative;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat, no-repeat;
   background-position: center, center;
-  opacity: 70%;
+  /* opacity: 30%; */
 
   &::after {
-    background: #000;
+    content: "";
     position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background: #0000008a;
+    /* z-index: 1; */
+    box-shadow: inset 50px 50px 150px #12131687, inset -120px -100px 250px #000000;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: url(./Assets/bg.png);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: #000;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      position: absolute;
+      background: #0000008a;
+    }
   }
 }

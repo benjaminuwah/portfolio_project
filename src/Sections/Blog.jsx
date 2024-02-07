@@ -1,9 +1,9 @@
 import React from 'react'
-import { dev, dev2, ui } from '../Assets'
+import { dev, dev2, } from '../Assets'
 
 const Blog = () => {
   return (
-    <div className='bg-[#191A1D] py-[50px] md:py-[200px]'>
+    <div id='Blog' className='bg-[#191A1D] py-[50px] md:py-[200px]'>
       <h1 className='text-white text-[40px] text-center capitalize font-bold'>other things i do</h1>
       <div className='flex justify-center text-[#5A5A5A] gap-4'>
         <li>YouTube</li>

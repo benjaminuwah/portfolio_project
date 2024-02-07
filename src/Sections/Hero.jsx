@@ -10,15 +10,15 @@ import Navbar from '../Components/Navbar'
 
 const Hero = () => {
   return (
-    <div className='hero object-fill w-full h-[700px] relative'>
+    <div className='hero object-fill w-full h-[735px] relative'>
       <Navbar />
-      <div className='w-[80%] flex flex-col-reverse md:flex-row md:flex mx-auto pt-40 m-0'>
-        <div className='flex-1 text-[#27292D] gap-3 flex md:flex-col py-5'>
+      <div className='w-[80%] flex flex-col-reverse md:flex-row md:flex mx-auto pt-40 md:pt-64'>
+        <div className='flex-1 text-[#27292D] gap-3 flex md:flex-col py-5 z-10'>
           <AiFillInstagram color='white' fontSize='2.5em' className='bg-[#27292D] p-3 rounded-full'/>
           <FaLinkedinIn color='white' fontSize='2.5em' className='bg-[#27292D] p-3 rounded-full'/>
           <FaTwitter color='white' fontSize='2.5em' className='bg-[#27292D] p-3 rounded-full'/>
         </div>
-        <div className='flex-1'>
+        <div className='flex-1 z-10'>
           <h1 className='text-[38px] md:text-[50px] leading-10 font-bold text-white pb-5 m-0 '>I'm Benjamin Uwah</h1>
           <div className='md:flex items-center gap-5 pb-5'>
             <p className='text-[20px] font-semibold text-[#ECECEC]'>Senior Product Designer</p>

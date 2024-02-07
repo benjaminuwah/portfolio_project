@@ -6,7 +6,7 @@ import Tools from './Tools'
 
 const Industries = () => {
   return (
-    <div className='w-[80%] mx-auto py-[100px] md:py-[400px]'>
+    <div id='Industries' className='w-[80%] mx-auto py-[100px] md:py-[400px]'>
       <div>
         <h1 className='text-[24px] text-white font-bold text-center'>Industries</h1>
         <p className='text-center text-[#C3C2C2] capitalize'>where i have worked in</p>

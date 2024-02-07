@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { navLinks } from '../Constants'
-// import { Link } from 'react-router-dom'
 import { close, menu } from '../Assets'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -27,13 +27,21 @@ const Navbar = () => {
   return (
     <nav className={`w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-black" : "bg-transparent"}`}>
       <div className='flex justify-between items-center w-[80%] md:max-w-7xl mx-auto'>
-      <h1 className='text-white text-[16px] font-bold'>Benjamin Uwah</h1>
+        <AnchorLink href="#Home"><h1 className='text-white text-[16px] font-bold'>Benjamin Uwah</h1></AnchorLink>
+      
       <div className='text-[16px] hidden md:flex gap-[50px] list-none text-[#C3C2C2]'>
+        {/* <ul >
+          <li><AnchorLink href='#Project'>Project</AnchorLink></li>
+          <li><AnchorLink> </AnchorLink></li>
+          <li><AnchorLink> </AnchorLink></li>
+        </ul> */}
         {
           navLinks.map((nav) => {
             return (
-              <li key={nav}>
-                <a href={nav.url}>{nav.title}</a>
+              <li 
+                key={nav}
+              >
+                <AnchorLink href={`#${nav.url}`}>{nav.id}</AnchorLink>
               </li>
             )
           })
@@ -65,7 +73,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={nav.url}>{nav.title}</a>
+                  <AnchorLink href={`#${nav.url}`}>{nav.id}</AnchorLink>
                 </li>
               ))}
             </ul>

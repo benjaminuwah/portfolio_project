@@ -4,13 +4,13 @@ import { Blog, Hero, Industries, Projects } from './Sections';
 
 function App() {
   return (
-    <>
+    <div id='Home'>
       <Hero />
       <Projects />
       <Industries />
       <Blog />
       <Footer />
-    </>
+    </div>
   );
 }
 
