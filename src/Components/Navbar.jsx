@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className={`w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-black" : "bg-transparent"}`}>
       <div className='flex justify-between items-center w-[80%] md:max-w-7xl mx-auto'>
-        <AnchorLink href="#Home"><h1 className='text-white text-[16px] font-bold'>Benjamin Uwah</h1></AnchorLink>
+        <AnchorLink href="#Home"><h1 className='text-white text-[24px] font-bold'>Benjamin Uwah</h1></AnchorLink>
       
       <div className='text-[16px] hidden md:flex gap-[50px] list-none text-[#C3C2C2]'>
         {/* <ul >
