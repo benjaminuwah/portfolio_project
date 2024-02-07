@@ -22,7 +22,7 @@ const Hero = () => {
           <h1 className='text-[35px] md:text-[50px] leading-10 font-bold text-white pb-5 m-0 '>I'm Benjamin Uwah</h1>
           <div className='md:flex items-center gap-5 pb-5'>
             <p className='text-[20px] font-semibold text-[#ECECEC]'>Senior Product Designer</p>
-            <li className='text-[#5A5A5A] text-[18px]'>8years+ experience</li>
+            <li className='text-[#AAA] text-[18px]'>8years+ experience</li>
           </div>
           <p className='text-[#AAA] text-[16px] z-50'>I’m an all round <span className='text-white'>PRODUCT</span> guy, focussed in building <span className='text-white'>SAAS</span> related products. I’m a <span className='text-white'>user centric </span>product designer with <span className='text-white'>wealth of experience</span> working with developers and the entire product team. If you want to launch an MVP, <span className='text-white'>startup,</span>  build saas, enhance the <span className='text-white'>experience</span> & aesthetics of an existing products or <span className='text-white'>prototype</span> an idea then I’m your guy.</p>
         </div>
