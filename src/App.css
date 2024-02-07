@@ -52,6 +52,7 @@ body {
       top: 0;
       position: absolute;
       background: #0000008a;
+      box-shadow: inset 50px 50px 150px #12131687, inset -120px -100px 250px #000000;
     }
   }
 }

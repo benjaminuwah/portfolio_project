@@ -19,7 +19,7 @@ const Hero = () => {
           <FaTwitter color='white' fontSize='2.5em' className='bg-[#27292D] p-3 rounded-full'/>
         </div>
         <div className='flex-1 z-10'>
-          <h1 className='text-[38px] md:text-[50px] leading-10 font-bold text-white pb-5 m-0 '>I'm Benjamin Uwah</h1>
+          <h1 className='text-[35px] md:text-[50px] leading-10 font-bold text-white pb-5 m-0 '>I'm Benjamin Uwah</h1>
           <div className='md:flex items-center gap-5 pb-5'>
             <p className='text-[20px] font-semibold text-[#ECECEC]'>Senior Product Designer</p>
             <li className='text-[#5A5A5A] text-[18px]'>8years+ experience</li>
