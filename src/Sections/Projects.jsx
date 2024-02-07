@@ -12,7 +12,7 @@ const Projects = () => {
       <div className='md:flex gap-40'>
         <div className='flex-1'>
           <div>
-            <div className='bg-[#27292D] h-[375px] rounded-[50px] flex justify-end items-end pb-10 pr-10'>
+            <div className='bg-[#27292D] h-[250px] md:h-[375px] rounded-[10px] flex justify-end items-end pb-10 pr-10'>
               <div className='flex gap-2 items-center text-[16px] bg-white px-7 py-3 rounded-[10px] cursor-pointer'>
                 <p>View Case Study</p>
                 <RxExternalLink />
@@ -20,13 +20,13 @@ const Projects = () => {
             </div>
             <div className='pt-[30px]'>
               <li className='text-[#5A5A5A]'>Ecommerce</li>
-              <h1 className='text-white text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
-              <p className='text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
+              <h1 className='text-white text-[18px] md:text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
+              <p className='text-[16px] md:text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
             </div>
           </div>
-          <div className='pt-24' />
+          <div className='pt-10 md:pt-24' />
           <div>
-          <div className='bg-[#27292D] h-[375px] rounded-[50px] flex justify-end items-end pb-10 pr-10'>
+          <div className='bg-[#27292D] h-[250px] md:h-[375px] rounded-[10px] flex justify-end items-end pb-10 pr-10'>
               <div className='flex gap-2 items-center text-[16px] bg-white px-7 py-3 rounded-[10px] cursor-pointer'>
                 <p>View Case Study</p>
                 <RxExternalLink />
@@ -34,15 +34,15 @@ const Projects = () => {
             </div>
             <div className='pt-[30px]'>
               <li className='text-[#5A5A5A]'>Ecommerce</li>
-              <h1 className='text-white text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
-              <p className='text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
+              <h1 className='text-white text-[18px] md:text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
+              <p className='text-[16px] md:text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
             </div>
           </div>
         </div>
 
-        <div className='flex-1 pt-32'>
+        <div className='flex-1 pt-10 md:pt-32'>
             <div>
-            <div className='bg-[#27292D] h-[375px] rounded-[50px] flex justify-end items-end pb-10 pr-10'>
+            <div className='bg-[#27292D] h-[250px] md:h-[375px] rounded-[10px] flex justify-end items-end pb-10 pr-10'>
               <div className='flex gap-2 items-center text-[16px] bg-white px-7 py-3 rounded-[10px]  cursor-pointer'>
                 <p>View Case Study</p>
                 <RxExternalLink />
@@ -50,12 +50,12 @@ const Projects = () => {
             </div>
             <div className='pt-[30px]'>
               <li className='text-[#5A5A5A]'>Ecommerce</li>
-              <h1 className='text-white text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
-              <p className='text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
+              <h1 className='text-white text-[18px] md:text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
+              <p className='text-[16px] md:text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
             </div>
           </div>
-          <div className='pt-24' />
-          <div className='bg-[#27292D] h-[375px] rounded-[50px] flex justify-end items-end pb-10 pr-10'>
+          <div className='pt-10 md:pt-24' />
+          <div className='bg-[#27292D] h-[250px] md:h-[375px] rounded-[10px] flex justify-end items-end pb-10 pr-10'>
               <div className='flex gap-2 items-center text-[16px] bg-white px-7 py-3 rounded-[10px] cursor-pointer'>
                 <p>View Case Study</p>
                 <RxExternalLink />
@@ -63,8 +63,8 @@ const Projects = () => {
             </div>
             <div className='pt-[30px]'>
               <li className='text-[#5A5A5A]'>Ecommerce</li>
-              <h1 className='text-white text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
-              <p className='text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
+              <h1 className='text-white text-[18px] md:text-[22px] font-semibold capitalize'>guest checkout ecommerce web and <br /> mobile application</h1>
+              <p className='text-[16px] md:text-[18px] text-[#C3C2C2]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis magnis donec vitae eu vel volutpat leo mauris.</p>
             </div>
           </div>
         </div>

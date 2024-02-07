@@ -11,7 +11,7 @@ const Tools = () => {
         {
           tools.map((tools, index) => {
             return (
-              <li key={index} className='bg-[#191A1D] text-[#959595] py-[15px] px-[30px] rounded-[10px] border border-[#404040] border-dashed font-semibold flex'>{tools.name}</li>
+              <li key={index} className='bg-[#191A1D] text-[#959595] py-[5px] md:py-[15px] px-[15px] md:px-[30px] rounded-[10px] border border-[#404040] border-dashed font-semibold flex'>{tools.name}</li>
             )
           })
         }
