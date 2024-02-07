@@ -9,7 +9,7 @@ const Projects = () => {
         <h1 className='text-white text-[24px] font-bold'>Project</h1>
         <p className='text-[#C3C2C2] text-[14px]'>Products I have worked on</p>
       </div>
-      <div className='flex gap-40'>
+      <div className='md:flex gap-40'>
         <div className='flex-1'>
           <div>
             <div className='bg-[#27292D] h-[375px] rounded-[50px] flex justify-end items-end pb-10 pr-10'>

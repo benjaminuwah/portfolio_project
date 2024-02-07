@@ -1,16 +1,15 @@
 import './App.css';
-import { Blog, Hero, Industries, Projects, Skills } from './Sections';
+import { Footer } from './Components';
+import { Blog, Hero, Industries, Projects } from './Sections';
 
 function App() {
   return (
     <>
       <Hero />
-      <div className='mt-[-50px] z-10 absolute'>
-        <Projects />
-      </div>
+      <Projects />
       <Industries />
-      <Skills />
       <Blog />
+      <Footer />
     </>
   );
 }
